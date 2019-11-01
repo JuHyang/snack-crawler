@@ -53,7 +53,6 @@ export default new Router({
     {
       path: '/main',
       component: Main,
-      beforeEnter: requireAuth,
       children: [
         {
           path: 'snack-search',
